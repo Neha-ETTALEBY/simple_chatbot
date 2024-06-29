@@ -1,0 +1,138 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi there",
+          "How are you",
+          "Is anyone there?",
+          "Hey",
+          "Hola",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hello! How can I assist you today?",
+          "Good to see you again! How can I help?",
+          "Hi there! What can I do for you today?",
+          "Hey! How's it going?",
+          "Hola! How can I assist?"
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "See you later",
+          "Goodbye",
+          "Nice chatting to you, bye",
+          "Till next time"
+        ],
+        "responses": [
+          "See you! Have a great day!",
+          "Goodbye! Come back if you need any more assistance.",
+          "Bye! Take care and visit again soon.",
+          "It was nice chatting with you! Goodbye!",
+          "Till next time! Stay safe."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "That's helpful",
+          "Awesome, thanks",
+          "Thanks for helping me"
+        ],
+        "responses": [
+          "You're welcome! Happy to help.",
+          "My pleasure! Let me know if you need anything else.",
+          "No problem! I'm here to help.",
+          "Glad I could assist! Have a great day.",
+          "Anytime! Don't hesitate to ask if you need more help."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "weather",
+        "patterns": [
+          "What's the weather like?",
+          "How's the weather today?",
+          "Is it going to rain?",
+          "What's the forecast for today?",
+          "Tell me the weather"
+        ],
+        "responses": [
+          "I'm not connected to a weather service right now, but you can check your local weather app for the latest updates.",
+          "I can't provide real-time weather updates, but I suggest checking online for the most accurate forecast."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "time",
+        "patterns": [
+          "What time is it?",
+          "Can you tell me the time?",
+          "What's the current time?",
+          "Do you know the time?",
+          "Tell me the time please"
+        ],
+        "responses": [
+          "I'm not able to check the current time, but you can look at the clock on your device.",
+          "Please check your local time on your phone or computer."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "date",
+        "patterns": [
+          "What's the date today?",
+          "Can you tell me today's date?",
+          "What's the current date?",
+          "Do you know the date?",
+          "Tell me the date please"
+        ],
+        "responses": [
+          "I'm not able to check the current date, but you can look at the calendar on your device.",
+          "Please check today's date on your phone or computer."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "news",
+        "patterns": [
+          "What's the latest news?",
+          "Tell me the news",
+          "Any news updates?",
+          "What's happening in the world?",
+          "Give me some news"
+        ],
+        "responses": [
+          "I don't have access to live news updates, but you can check your favorite news website or app for the latest headlines.",
+          "For current news, please visit a reliable news source online."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "joke",
+        "patterns": [
+          "Tell me a joke",
+          "Do you know any jokes?",
+          "Make me laugh",
+          "Can you tell me something funny?",
+          "I want to hear a joke"
+        ],
+        "responses": [
+          "Why don't scientists trust atoms? Because they make up everything!",
+          "Why did the scarecrow win an award? Because he was outstanding in his field!",
+          "Why don't skeletons fight each other? They don't have the guts.",
+          "What do you get if you cross a snowman and a vampire? Frostbite."
+        ],
+        "context": [""]
+      }
+    ]
+  }
+  
